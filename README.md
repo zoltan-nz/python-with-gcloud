@@ -1,4 +1,4 @@
-# Debian slim image with Python 3.8.0 and Google Cloud CLI for gitlab-runner
+# Debian slim image with Python 3.8.2 and Google Cloud CLI for gitlab-runner
 
 Build & push
 

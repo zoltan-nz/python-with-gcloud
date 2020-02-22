@@ -1,4 +1,4 @@
-FROM python:3.8.0-slim
+FROM python:3.8.2-slim
 
 RUN apt-get update -y && apt-get install apt-transport-https ca-certificates gnupg2 curl software-properties-common apt-utils -y \
     && echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list \
